@@ -64,7 +64,9 @@ describe "retrieve_last_element_from_array" do
     expect(retrieve_last_element_from_array(array)).to eq("arrays!")
   end
 end
-
+#how do we access elements? 
+#what happens if we do not know the 
+#index number of the element?
 describe "update_element_from_index" do 
   it "takes in an argument of an array, an index number and element value and returns the updated element" do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
