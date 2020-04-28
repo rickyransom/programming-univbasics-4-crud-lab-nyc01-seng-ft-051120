@@ -32,6 +32,11 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
+  array.last
+  #will this work?
+  #Well if we know 0 is always first
+  #but what happens if we don't know
+  #what is last?
 
 end
 
